@@ -2,6 +2,21 @@
 
 A lightweight Electron + Vite + React desktop playground for visually composing and running agents.
 
+## Quick Start
+
+```bash
+# From the repository root
+cd agent-builder-desktop
+npm install
+npm run build
+
+# Terminal 1: Start Vite dev server
+npm run dev
+
+# Terminal 2: Start Electron (in a new terminal)
+electron dist-electron/main.js --dev
+```
+
 ## Features
 
 - **Visual Agent Builder**: Add, remove, and toggle steps with a user-friendly interface

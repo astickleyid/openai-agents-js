@@ -1,0 +1,21 @@
+{
+  "name": "Example Agent",
+  "description": "A sample agent for testing the desktop playground",
+  "steps": [
+    {
+      "name": "Initialize",
+      "description": "Set up the agent environment",
+      "enabled": true
+    },
+    {
+      "name": "Process Data",
+      "description": "Process the input data",
+      "enabled": true
+    },
+    {
+      "name": "Generate Response",
+      "description": "Generate the final response",
+      "enabled": true
+    }
+  ]
+}
