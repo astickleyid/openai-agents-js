@@ -25,6 +25,7 @@ export default tseslint.config(
     'examples/nextjs/**',
     'integration-tests//**',
     'tsc-multi.json',
+    'agent-builder-desktop/**',
   ]),
   eslint.configs.recommended,
   tseslint.configs.recommended,

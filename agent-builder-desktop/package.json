@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "agent-builder-desktop",
+  "version": "0.1.0",
+  "description": "Lightweight Electron desktop playground for visually composing and running agents",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc -p tsconfig.electron.json",
+    "build-check": "tsc --noEmit && tsc --noEmit -p tsconfig.electron.json",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.12",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^33.4.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}
