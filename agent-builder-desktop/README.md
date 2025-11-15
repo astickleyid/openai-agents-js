@@ -101,7 +101,7 @@ The workspace panel shows your recent agents:
 
 ### Workspace Metadata
 
-Workspace metadata is stored in `electron/workspace.json` during development.
+Workspace metadata is stored in `electron/workspace.json` during development. An initial empty workspace file is included in the repository and will be auto-populated as you add agents to your workspace.
 
 **For production**, you should move this to the user's application data directory:
 - macOS: `~/Library/Application Support/Agent Builder/workspace.json`
