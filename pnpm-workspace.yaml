@@ -2,6 +2,7 @@ packages:
   - packages/*
   - examples/*
   - docs
+  - agent-builder-desktop
 
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
