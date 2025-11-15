@@ -8,8 +8,8 @@ dist-electron/
 release/
 *.local
 
-# Workspace data
-electron/workspace.json
+# Workspace data (will be auto-generated if deleted)
+# Note: The initial workspace.json is tracked, but you may want to ignore local changes
 
 # IDE
 .vscode/*
